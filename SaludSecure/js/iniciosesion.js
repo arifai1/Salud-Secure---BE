@@ -14,7 +14,7 @@ $("#divt").hide();//# hago referencia al id. .Hago referencia a la clase de ese 
         }else if($("#u").val()=='' && $("#p").val()!=""){
         	$("#divt").html("Debe agregar Usuario");
         	$("#divt").show();
-        }else if($("#u").val()=='' && $("#p").val()==""){
+        }else if($("#u").val()!='' && $("#p").val()==""){
         	$("#divt").html("Debe agregar Contraseña");
         	$("#divt").show();
         }
